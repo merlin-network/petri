@@ -3,7 +3,7 @@ package petri.cron;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/petri-labs/petri/x/cron/types";
+option go_package = "github.com/merlin-network/petri/x/cron/types";
 
 // Params defines the parameters for the module.
 message Params {

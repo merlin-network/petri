@@ -11,8 +11,8 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/petri-labs/petri/x/ibc-hooks/client/cli"
-	"github.com/petri-labs/petri/x/ibc-hooks/types"
+	"github.com/merlin-network/petri/x/ibc-hooks/client/cli"
+	"github.com/merlin-network/petri/x/ibc-hooks/types"
 
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/x/cron/types"
 	"github.com/spf13/cobra"
 )
 

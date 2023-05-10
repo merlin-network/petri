@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/petri-labs/petri/x/tokenfactory/types"
+	"github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 // GetTxCmd returns the transaction commands for this module

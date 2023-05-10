@@ -22,15 +22,15 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 
 	clienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
 	appProvider "github.com/cosmos/interchain-security/app/provider"
 	e2e "github.com/cosmos/interchain-security/testutil/integration"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/petri-labs/petri/app"
-	ictxstypes "github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/app"
+	ictxstypes "github.com/merlin-network/petri/x/interchaintxs/types"
 
 	consumertypes "github.com/cosmos/interchain-security/x/ccv/consumer/types"
 	providertypes "github.com/cosmos/interchain-security/x/ccv/provider/types"
@@ -281,7 +281,7 @@ func (suite *IBCConnectionTestSuite) GetPetriZoneApp(chain *ibctesting.TestChain
 }
 
 func (suite *IBCConnectionTestSuite) StoreReflectCode(ctx sdk.Context, addr sdk.AccAddress, path string) uint64 {
-	// wasm file built with https://github.com/petri-labs/petri-contracts/tree/main/contracts/reflect
+	// wasm file built with https://github.com/merlin-network/petri-contracts/tree/main/contracts/reflect
 	wasmCode, err := os.ReadFile(path)
 	suite.Require().NoError(err)
 

@@ -11,11 +11,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	mock_types "github.com/petri-labs/petri/testutil/mocks/feeburner/types"
-	"github.com/petri-labs/petri/x/feeburner/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/feeburner/types"
+	"github.com/merlin-network/petri/x/feeburner/keeper"
 
-	feekeeperutil "github.com/petri-labs/petri/testutil/feeburner/keeper"
-	feetypes "github.com/petri-labs/petri/x/feeburner/types"
+	feekeeperutil "github.com/merlin-network/petri/testutil/feeburner/keeper"
+	feetypes "github.com/merlin-network/petri/x/feeburner/types"
 )
 
 func TestKeeper_RecordBurnedFees(t *testing.T) {

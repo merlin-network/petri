@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/x/cron/types"
 )
 
 var _ types.QueryServer = Keeper{}

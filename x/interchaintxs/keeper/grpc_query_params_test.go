@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/petri-labs/petri/testutil/interchaintxs/keeper"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	testkeeper "github.com/merlin-network/petri/testutil/interchaintxs/keeper"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func TestParamsQuery(t *testing.T) {

@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/petri-labs/petri/testutil/feerefunder/keeper"
+	testkeeper "github.com/merlin-network/petri/testutil/feerefunder/keeper"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 func TestGetParams(t *testing.T) {

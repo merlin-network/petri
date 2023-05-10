@@ -4,7 +4,7 @@ package petri.feerefunder;
 import "gogoproto/gogo.proto";
 import "feerefunder/fee.proto";
 
-option go_package = "github.com/petri-labs/petri/x/feerefunder/types";
+option go_package = "github.com/merlin-network/petri/x/feerefunder/types";
 
 // Params defines the parameters for the module.
 message Params {

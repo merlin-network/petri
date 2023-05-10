@@ -8,8 +8,8 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	ibcexported "github.com/cosmos/ibc-go/v4/modules/core/exported"
 
-	contractmanagertypes "github.com/petri-labs/petri/x/contractmanager/types"
-	feerefundertypes "github.com/petri-labs/petri/x/feerefunder/types"
+	contractmanagertypes "github.com/merlin-network/petri/x/contractmanager/types"
+	feerefundertypes "github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 // AccountKeeper defines the expected account keeper used for simulations (noalias)

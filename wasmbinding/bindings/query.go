@@ -3,13 +3,13 @@ package bindings
 import (
 	"encoding/json"
 
-	feerefundertypes "github.com/petri-labs/petri/x/feerefunder/types"
+	feerefundertypes "github.com/merlin-network/petri/x/feerefunder/types"
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
 	ibcclienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 // PetriQuery contains petri custom queries.

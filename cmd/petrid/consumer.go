@@ -17,7 +17,7 @@ import (
 	pvm "github.com/tendermint/tendermint/privval"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/petri-labs/petri/testutil/consumer"
+	"github.com/merlin-network/petri/testutil/consumer"
 )
 
 func AddConsumerSectionCmd(defaultNodeHome string) *cobra.Command {

@@ -19,9 +19,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/petri-labs/petri/x/contractmanager/client/cli"
-	"github.com/petri-labs/petri/x/contractmanager/keeper"
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	"github.com/merlin-network/petri/x/contractmanager/client/cli"
+	"github.com/merlin-network/petri/x/contractmanager/keeper"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 var (

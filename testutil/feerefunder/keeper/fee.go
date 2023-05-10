@@ -14,8 +14,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/petri-labs/petri/x/feerefunder/keeper"
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/feerefunder/keeper"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 func FeeKeeper(t testing.TB, channelKeeper types.ChannelKeeper, bankKeeper types.BankKeeper) (*keeper.Keeper, sdk.Context) {

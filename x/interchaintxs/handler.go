@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/petri-labs/petri/x/interchaintxs/keeper"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/x/interchaintxs/keeper"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func NewHandler(k keeper.Keeper) sdk.Handler {

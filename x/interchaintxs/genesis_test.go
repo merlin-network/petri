@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	keepertest "github.com/petri-labs/petri/testutil/interchaintxs/keeper"
-	"github.com/petri-labs/petri/testutil/interchaintxs/nullify"
-	"github.com/petri-labs/petri/x/interchaintxs"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	keepertest "github.com/merlin-network/petri/testutil/interchaintxs/keeper"
+	"github.com/merlin-network/petri/testutil/interchaintxs/nullify"
+	"github.com/merlin-network/petri/x/interchaintxs"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func TestGenesis(t *testing.T) {

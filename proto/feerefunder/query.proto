@@ -8,16 +8,16 @@ import "feerefunder/params.proto";
 import "feerefunder/genesis.proto";
 // this line is used by starport scaffolding # 1
 
-option go_package = "github.com/petri-labs/petri/x/feerefunder/types";
+option go_package = "github.com/merlin-network/petri/x/feerefunder/types";
 
 // Query defines the gRPC querier service.
 service Query {
   // Parameters queries the parameters of the module.
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/petri-labs/petri/feerefunder/params";
+    option (google.api.http).get = "/merlin-network/petri/feerefunder/params";
   }
   rpc FeeInfo(FeeInfoRequest) returns (FeeInfoResponse) {
-    option (google.api.http).get = "/petri-labs/petri/feerefunder/info";
+    option (google.api.http).get = "/merlin-network/petri/feerefunder/info";
   }
   // this line is used by starport scaffolding # 2
 }

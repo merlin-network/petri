@@ -8,7 +8,7 @@ import "interchainqueries/params.proto";
 import "interchainqueries/genesis.proto";
 import "interchainqueries/tx.proto";
 
-option go_package = "github.com/petri-labs/petri/x/interchainqueries/types";
+option go_package = "github.com/merlin-network/petri/x/interchainqueries/types";
 
 // Query defines the gRPC querier service.
 service Query {

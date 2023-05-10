@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/x/tokenfactory/types"
+	"github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

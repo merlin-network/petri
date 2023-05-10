@@ -7,10 +7,10 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
 	paramskeeper "github.com/cosmos/cosmos-sdk/x/params/keeper"
-	cronkeeper "github.com/petri-labs/petri/x/cron/keeper"
-	feeburnerkeeper "github.com/petri-labs/petri/x/feeburner/keeper"
-	icqkeeper "github.com/petri-labs/petri/x/interchainqueries/keeper"
-	tokenfactorykeeper "github.com/petri-labs/petri/x/tokenfactory/keeper"
+	cronkeeper "github.com/merlin-network/petri/x/cron/keeper"
+	feeburnerkeeper "github.com/merlin-network/petri/x/feeburner/keeper"
+	icqkeeper "github.com/merlin-network/petri/x/interchainqueries/keeper"
+	tokenfactorykeeper "github.com/merlin-network/petri/x/tokenfactory/keeper"
 )
 
 // Upgrade defines a struct containing necessary fields that a SoftwareUpgradeProposal

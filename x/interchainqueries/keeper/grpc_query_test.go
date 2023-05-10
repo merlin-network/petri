@@ -11,8 +11,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/petri-labs/petri/x/interchainqueries/keeper"
-	iqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/keeper"
+	iqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 func (suite *KeeperTestSuite) TestRemoteLastHeight() {

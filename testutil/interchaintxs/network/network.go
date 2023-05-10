@@ -18,13 +18,13 @@ import (
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	staking "github.com/cosmos/cosmos-sdk/x/staking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/petri-labs/petri/testutil/consumer"
+	"github.com/merlin-network/petri/testutil/consumer"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 )
 
 type (

@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/petri-labs/petri/x/interchainqueries/keeper"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/keeper"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 // NewHandler ...

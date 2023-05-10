@@ -2,8 +2,8 @@ package cron
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/petri-labs/petri/x/cron/keeper"
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/x/cron/keeper"
+	"github.com/merlin-network/petri/x/cron/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
@@ -18,10 +18,10 @@ import (
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/petri-labs/petri/testutil/contractmanager/network"
-	"github.com/petri-labs/petri/testutil/contractmanager/nullify"
-	"github.com/petri-labs/petri/x/contractmanager/client/cli"
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	"github.com/merlin-network/petri/testutil/contractmanager/network"
+	"github.com/merlin-network/petri/testutil/contractmanager/nullify"
+	"github.com/merlin-network/petri/x/contractmanager/client/cli"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 func networkWithFailureObjects(t *testing.T, n int) (*network.Network, []types.Failure) {

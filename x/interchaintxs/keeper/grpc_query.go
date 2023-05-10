@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 var _ types.QueryServer = Keeper{}

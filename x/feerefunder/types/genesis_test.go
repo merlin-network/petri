@@ -4,13 +4,13 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 const (

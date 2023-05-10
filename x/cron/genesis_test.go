@@ -3,10 +3,10 @@ package cron_test
 import (
 	"testing"
 
-	"github.com/petri-labs/petri/testutil/cron/keeper"
-	"github.com/petri-labs/petri/testutil/cron/nullify"
-	"github.com/petri-labs/petri/x/cron"
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/testutil/cron/keeper"
+	"github.com/merlin-network/petri/testutil/cron/nullify"
+	"github.com/merlin-network/petri/x/cron"
+	"github.com/merlin-network/petri/x/cron/types"
 	"github.com/stretchr/testify/require"
 )
 

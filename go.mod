@@ -1,4 +1,4 @@
-module github.com/petri-labs/petri
+module github.com/merlin-network/petri
 
 go 1.20
 
@@ -156,7 +156,7 @@ require (
 )
 
 replace (
-	github.com/CosmWasm/wasmd v0.31.0 => github.com/petri-labs/wasmd v0.31.1-petri-fixes
+	github.com/CosmWasm/wasmd v0.31.0 => github.com/merlin-network/wasmd v0.31.1-petri-fixes
 	github.com/btcsuite/btcd => github.com/btcsuite/btcd v0.22.2
 	github.com/cosmos/admin-module => github.com/Ethernal-Tech/admin-module v0.0.0-20221102105340-e693f4d379c3
 	github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.45.15-ics

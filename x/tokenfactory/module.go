@@ -17,9 +17,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/petri-labs/petri/x/tokenfactory/client/cli"
-	"github.com/petri-labs/petri/x/tokenfactory/keeper"
-	"github.com/petri-labs/petri/x/tokenfactory/types"
+	"github.com/merlin-network/petri/x/tokenfactory/client/cli"
+	"github.com/merlin-network/petri/x/tokenfactory/keeper"
+	"github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 var (

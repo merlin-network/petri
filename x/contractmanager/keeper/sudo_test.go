@@ -10,11 +10,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/testutil"
-	keepertest "github.com/petri-labs/petri/testutil/contractmanager/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/contractmanager/types"
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	"github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/testutil"
+	keepertest "github.com/merlin-network/petri/testutil/contractmanager/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/contractmanager/types"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 func init() {

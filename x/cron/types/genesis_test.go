@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/x/cron/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,7 +9,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 
 	wasmKeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	ibcclienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
@@ -18,9 +18,9 @@ import (
 
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/petri-labs/petri/testutil"
-	"github.com/petri-labs/petri/x/interchainqueries/keeper"
-	iqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/testutil"
+	"github.com/merlin-network/petri/x/interchainqueries/keeper"
+	iqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 var reflectContractPath = "../../../wasmbinding/testdata/reflect.wasm"

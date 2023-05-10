@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 const FailuresQueryMaxLimit uint64 = query.DefaultLimit

@@ -9,10 +9,10 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/petri-labs/petri/app/params"
-	"github.com/petri-labs/petri/testutil"
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	"github.com/petri-labs/petri/x/transfer/types"
+	"github.com/merlin-network/petri/app/params"
+	"github.com/merlin-network/petri/testutil"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/transfer/types"
 )
 
 const (

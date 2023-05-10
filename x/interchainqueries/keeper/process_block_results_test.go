@@ -7,8 +7,8 @@ import (
 
 	ibckeeper "github.com/cosmos/ibc-go/v4/modules/core/keeper"
 	"github.com/golang/mock/gomock"
-	icqtestkeeper "github.com/petri-labs/petri/testutil/interchainqueries/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/interchainqueries/types"
+	icqtestkeeper "github.com/merlin-network/petri/testutil/interchainqueries/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/interchainqueries/types"
 
 	"github.com/CosmWasm/wasmd/x/wasm/keeper"
 	"github.com/cosmos/cosmos-sdk/types"
@@ -26,9 +26,9 @@ import (
 
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	clientkeeper "github.com/cosmos/ibc-go/v4/modules/core/02-client/keeper"
-	"github.com/petri-labs/petri/testutil"
-	iqkeeper "github.com/petri-labs/petri/x/interchainqueries/keeper"
-	iqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/testutil"
+	iqkeeper "github.com/merlin-network/petri/x/interchainqueries/keeper"
+	iqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 // CreateTMClientHeader creates a TM header to update the TM client. Args are passed in to allow

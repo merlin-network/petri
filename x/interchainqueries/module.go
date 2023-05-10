@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/petri-labs/petri/x/interchainqueries/client/cli"
-	"github.com/petri-labs/petri/x/interchainqueries/keeper"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/client/cli"
+	"github.com/merlin-network/petri/x/interchainqueries/keeper"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 var (

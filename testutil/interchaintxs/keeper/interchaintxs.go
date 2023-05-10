@@ -14,8 +14,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/petri-labs/petri/x/interchaintxs/keeper"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/x/interchaintxs/keeper"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func InterchainTxsKeeper(t testing.TB, managerKeeper types.ContractManagerKeeper, refunderKeeper types.FeeRefunderKeeper, icaControllerKeeper types.ICAControllerKeeper, channelKeeper types.ChannelKeeper, capabilityKeeper types.ScopedKeeper) (*keeper.Keeper, sdk.Context) {

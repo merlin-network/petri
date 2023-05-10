@@ -8,8 +8,8 @@ import (
 	ibcclienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
 	"github.com/stretchr/testify/require"
 
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	"github.com/petri-labs/petri/x/transfer/types"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/transfer/types"
 )
 
 const TestAddress = "cosmos10h9stc5v6ntgeygf5xf945njqq5h32r53uquvw"

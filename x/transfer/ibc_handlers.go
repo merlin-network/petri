@@ -8,8 +8,8 @@ import (
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 const (

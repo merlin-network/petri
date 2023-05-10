@@ -5,9 +5,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	sdkquery "github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/petri-labs/petri/wasmbinding/bindings"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
-	icatypes "github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/wasmbinding/bindings"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
+	icatypes "github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func (qp *QueryPlugin) GetInterchainQueryResult(ctx sdk.Context, queryID uint64) (*bindings.QueryRegisteredQueryResultResponse, error) {

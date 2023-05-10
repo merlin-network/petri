@@ -10,10 +10,10 @@ import (
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/golang/mock/gomock"
-	"github.com/petri-labs/petri/testutil"
-	testutil_keeper "github.com/petri-labs/petri/testutil/cron/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/cron/types"
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/testutil"
+	testutil_keeper "github.com/merlin-network/petri/testutil/cron/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/cron/types"
+	"github.com/merlin-network/petri/x/cron/types"
 	"github.com/stretchr/testify/require"
 )
 

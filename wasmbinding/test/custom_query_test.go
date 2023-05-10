@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/petri-labs/petri/app/params"
-	feerefundertypes "github.com/petri-labs/petri/x/feerefunder/types"
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	"github.com/merlin-network/petri/app/params"
+	feerefundertypes "github.com/merlin-network/petri/x/feerefunder/types"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 
 	"github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
@@ -17,11 +17,11 @@ import (
 	host "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/testutil"
-	"github.com/petri-labs/petri/wasmbinding/bindings"
-	icqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
-	ictxtypes "github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/testutil"
+	"github.com/merlin-network/petri/wasmbinding/bindings"
+	icqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
+	ictxtypes "github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 type CustomQuerierTestSuite struct {

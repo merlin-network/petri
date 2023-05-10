@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/petri-labs/petri/x/ibc-hooks/types"
+	"github.com/merlin-network/petri/x/ibc-hooks/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"

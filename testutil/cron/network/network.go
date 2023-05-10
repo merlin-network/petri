@@ -9,12 +9,12 @@ import (
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	staking "github.com/cosmos/cosmos-sdk/x/staking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/petri-labs/petri/testutil/consumer"
+	"github.com/merlin-network/petri/testutil/consumer"
 
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"

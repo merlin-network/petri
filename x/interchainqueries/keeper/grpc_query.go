@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 var _ types.QueryServer = Keeper{}

@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/petri-labs/petri/x/feeburner/types"
+	"github.com/merlin-network/petri/x/feeburner/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

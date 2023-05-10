@@ -3,8 +3,8 @@ package contractmanager
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/petri-labs/petri/x/contractmanager/keeper"
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	"github.com/merlin-network/petri/x/contractmanager/keeper"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

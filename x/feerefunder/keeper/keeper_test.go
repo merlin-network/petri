@@ -8,9 +8,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/petri-labs/petri/testutil"
-	testutil_keeper "github.com/petri-labs/petri/testutil/feerefunder/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/feerefunder/types"
+	"github.com/merlin-network/petri/testutil"
+	testutil_keeper "github.com/merlin-network/petri/testutil/feerefunder/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/feerefunder/types"
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/pkg/errors"
@@ -18,7 +18,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 )

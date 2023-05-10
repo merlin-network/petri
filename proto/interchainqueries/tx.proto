@@ -6,7 +6,7 @@ import "tendermint/abci/types.proto";
 import "google/protobuf/any.proto";
 import "interchainqueries/genesis.proto";
 
-option go_package = "github.com/petri-labs/petri/x/interchainqueries/types";
+option go_package = "github.com/merlin-network/petri/x/interchainqueries/types";
 
 // Msg defines the Msg service.
 service Msg {

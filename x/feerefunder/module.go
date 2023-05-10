@@ -19,9 +19,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/petri-labs/petri/x/feerefunder/client/cli"
-	"github.com/petri-labs/petri/x/feerefunder/keeper"
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/feerefunder/client/cli"
+	"github.com/merlin-network/petri/x/feerefunder/keeper"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 var (

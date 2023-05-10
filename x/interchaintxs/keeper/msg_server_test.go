@@ -10,8 +10,8 @@ import (
 	icatypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/types"
 	host "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 
-	feerefundertypes "github.com/petri-labs/petri/x/feerefunder/types"
-	"github.com/petri-labs/petri/x/interchaintxs/keeper"
+	feerefundertypes "github.com/merlin-network/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/interchaintxs/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/golang/mock/gomock"
@@ -19,10 +19,10 @@ import (
 
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 
-	"github.com/petri-labs/petri/testutil"
-	testkeeper "github.com/petri-labs/petri/testutil/interchaintxs/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/interchaintxs/types"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/testutil"
+	testkeeper "github.com/merlin-network/petri/testutil/interchaintxs/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/interchaintxs/types"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func TestRegisterInterchainAccount(t *testing.T) {

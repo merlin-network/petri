@@ -16,8 +16,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/petri-labs/petri/x/interchainqueries/keeper"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/keeper"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 func InterchainQueriesKeeper(

@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	cronsimulation "github.com/petri-labs/petri/x/cron/simulation"
-	"github.com/petri-labs/petri/x/cron/types"
+	cronsimulation "github.com/merlin-network/petri/x/cron/simulation"
+	"github.com/merlin-network/petri/x/cron/types"
 )
 
 // avoid unused import issue

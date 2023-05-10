@@ -12,10 +12,10 @@ import (
 	ibctesting "github.com/cosmos/interchain-security/legacy_ibc_testing/testing"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/petri-labs/petri/app/params"
-	"github.com/petri-labs/petri/testutil"
-	"github.com/petri-labs/petri/x/ibc-hooks/testutils"
-	"github.com/petri-labs/petri/x/ibc-hooks/utils"
+	"github.com/merlin-network/petri/app/params"
+	"github.com/merlin-network/petri/testutil"
+	"github.com/merlin-network/petri/x/ibc-hooks/testutils"
+	"github.com/merlin-network/petri/x/ibc-hooks/utils"
 
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"

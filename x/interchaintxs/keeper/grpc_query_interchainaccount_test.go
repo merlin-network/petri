@@ -10,10 +10,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/testutil"
-	testkeeper "github.com/petri-labs/petri/testutil/interchaintxs/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/interchaintxs/types"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/testutil"
+	testkeeper "github.com/merlin-network/petri/testutil/interchaintxs/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/interchaintxs/types"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func TestKeeper_InterchainAccountAddress(t *testing.T) {

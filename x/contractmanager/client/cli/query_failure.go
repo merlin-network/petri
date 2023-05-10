@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 func CmdFailures() *cobra.Command {

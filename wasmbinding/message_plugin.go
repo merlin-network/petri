@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	crontypes "github.com/petri-labs/petri/x/cron/types"
+	crontypes "github.com/merlin-network/petri/x/cron/types"
 
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 
-	cronkeeper "github.com/petri-labs/petri/x/cron/keeper"
+	cronkeeper "github.com/merlin-network/petri/x/cron/keeper"
 
 	paramChange "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 
@@ -24,16 +24,16 @@ import (
 
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	ibcclienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
-	"github.com/petri-labs/petri/wasmbinding/bindings"
-	icqkeeper "github.com/petri-labs/petri/x/interchainqueries/keeper"
-	icqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
-	ictxkeeper "github.com/petri-labs/petri/x/interchaintxs/keeper"
-	ictxtypes "github.com/petri-labs/petri/x/interchaintxs/types"
-	transferwrapperkeeper "github.com/petri-labs/petri/x/transfer/keeper"
-	transferwrappertypes "github.com/petri-labs/petri/x/transfer/types"
+	"github.com/merlin-network/petri/wasmbinding/bindings"
+	icqkeeper "github.com/merlin-network/petri/x/interchainqueries/keeper"
+	icqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
+	ictxkeeper "github.com/merlin-network/petri/x/interchaintxs/keeper"
+	ictxtypes "github.com/merlin-network/petri/x/interchaintxs/types"
+	transferwrapperkeeper "github.com/merlin-network/petri/x/transfer/keeper"
+	transferwrappertypes "github.com/merlin-network/petri/x/transfer/types"
 
-	tokenfactorykeeper "github.com/petri-labs/petri/x/tokenfactory/keeper"
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	tokenfactorykeeper "github.com/merlin-network/petri/x/tokenfactory/keeper"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 func CustomMessageDecorator(

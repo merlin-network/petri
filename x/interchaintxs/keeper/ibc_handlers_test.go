@@ -10,12 +10,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/testutil"
-	testkeeper "github.com/petri-labs/petri/testutil/interchaintxs/keeper"
-	mock_types "github.com/petri-labs/petri/testutil/mocks/interchaintxs/types"
-	"github.com/petri-labs/petri/x/contractmanager/types"
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	"github.com/petri-labs/petri/x/interchaintxs/keeper"
+	"github.com/merlin-network/petri/testutil"
+	testkeeper "github.com/merlin-network/petri/testutil/interchaintxs/keeper"
+	mock_types "github.com/merlin-network/petri/testutil/mocks/interchaintxs/types"
+	"github.com/merlin-network/petri/x/contractmanager/types"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/interchaintxs/keeper"
 )
 
 func TestHandleAcknowledgement(t *testing.T) {

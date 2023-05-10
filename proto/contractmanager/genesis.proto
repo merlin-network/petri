@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "contractmanager/params.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
-option go_package = "github.com/petri-labs/petri/x/contractmanager/types";
+option go_package = "github.com/merlin-network/petri/x/contractmanager/types";
 
 // Failure message contains information about ACK failures and can be used to
 // replay ACK in case of requirement.

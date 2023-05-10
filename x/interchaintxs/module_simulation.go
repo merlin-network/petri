@@ -10,8 +10,8 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	interchaintxssimulation "github.com/petri-labs/petri/x/interchaintxs/simulation"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	interchaintxssimulation "github.com/merlin-network/petri/x/interchaintxs/simulation"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 // avoid unused import issue

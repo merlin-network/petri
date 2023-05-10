@@ -13,9 +13,9 @@ import (
 	"github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	wrapkeeper "github.com/petri-labs/petri/x/transfer/keeper"
-	petritypes "github.com/petri-labs/petri/x/transfer/types"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	wrapkeeper "github.com/merlin-network/petri/x/transfer/keeper"
+	petritypes "github.com/merlin-network/petri/x/transfer/types"
 )
 
 /*

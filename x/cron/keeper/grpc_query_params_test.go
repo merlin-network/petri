@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/petri-labs/petri/testutil/cron/keeper"
+	testkeeper "github.com/merlin-network/petri/testutil/cron/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/x/cron/types"
 	"github.com/stretchr/testify/require"
 )
 

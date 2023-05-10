@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 )
 
 func init() {

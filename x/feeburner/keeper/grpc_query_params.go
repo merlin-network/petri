@@ -4,7 +4,7 @@ import (
 	"context"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/petri-labs/petri/x/feeburner/types"
+	"github.com/merlin-network/petri/x/feeburner/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

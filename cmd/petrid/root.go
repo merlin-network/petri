@@ -34,8 +34,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/app/params"
 )
 
 // NewRootCmd creates a new root command for petrid. It is called once in the

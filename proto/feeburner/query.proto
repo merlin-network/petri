@@ -8,7 +8,7 @@ import "feeburner/params.proto";
 import "feeburner/total_burned_petris_amount.proto";
 // this line is used by starport scaffolding # 1
 
-option go_package = "github.com/petri-labs/petri/x/feeburner/types";
+option go_package = "github.com/merlin-network/petri/x/feeburner/types";
 
 // Query defines the gRPC querier service.
 service Query {

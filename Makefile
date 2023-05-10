@@ -13,7 +13,7 @@ BUILDDIR ?= $(CURDIR)/build
 
 # for dockerized protobuf tools
 DOCKER := $(shell which docker)
-HTTPS_GIT := https://github.com/petri-labs/petri.git
+HTTPS_GIT := https://github.com/merlin-network/petri.git
 
 GO_SYSTEM_VERSION = $(shell go version | cut -c 14- | cut -d' ' -f1 | cut -d'.' -f1-2)
 REQUIRE_GO_VERSION = 1.20
@@ -68,7 +68,7 @@ ldflags = -X github.com/cosmos/cosmos-sdk/version.Name=petri \
 		  -X github.com/cosmos/cosmos-sdk/version.Version=$(VERSION) \
 		  -X github.com/cosmos/cosmos-sdk/version.Commit=$(COMMIT) \
 		  -X "github.com/cosmos/cosmos-sdk/version.BuildTags=$(build_tags_comma_sep)" \
-		  -X "github.com/petri-labs/petri/app.EnableSpecificProposals=$(ENABLED_PROPOSALS)"
+		  -X "github.com/merlin-network/petri/app.EnableSpecificProposals=$(ENABLED_PROPOSALS)"
 
 ifeq ($(WITH_CLEVELDB),yes)
   ldflags += -X github.com/cosmos/cosmos-sdk/types.DBBackend=cleveldb
@@ -226,11 +226,11 @@ kill-dev:
 	-@killall gaiad 2>/dev/null
 
 build-docker-image:
-	# please keep the image name consistent with https://github.com/petri-labs/petri-integration-tests/blob/main/setup/docker-compose.yml
+	# please keep the image name consistent with https://github.com/merlin-network/petri-integration-tests/blob/main/setup/docker-compose.yml
 	@docker buildx build --load --build-context app=. -t petri-node --build-arg BINARY=petrid .
 
 start-docker-container:
-	# please keep the ports consistent with https://github.com/petri-labs/petri-integration-tests/blob/main/setup/docker-compose.yml
+	# please keep the ports consistent with https://github.com/merlin-network/petri-integration-tests/blob/main/setup/docker-compose.yml
 	@docker run --rm --name petri -d -p 1317:1317 -p 26657:26657 -p 26656:26656 -p 16657:16657 -p 8090:9090 -e RUN_BACKGROUND=0 petri-node
 
 stop-docker-container:

@@ -9,10 +9,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	keepertest "github.com/petri-labs/petri/testutil/contractmanager/keeper"
-	"github.com/petri-labs/petri/testutil/contractmanager/nullify"
-	"github.com/petri-labs/petri/x/contractmanager/keeper"
-	"github.com/petri-labs/petri/x/contractmanager/types"
+	keepertest "github.com/merlin-network/petri/testutil/contractmanager/keeper"
+	"github.com/merlin-network/petri/testutil/contractmanager/nullify"
+	"github.com/merlin-network/petri/x/contractmanager/keeper"
+	"github.com/merlin-network/petri/x/contractmanager/types"
 )
 
 // Prevent strconv unused error

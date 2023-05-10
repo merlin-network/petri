@@ -9,8 +9,8 @@ import (
 
 	e2e "github.com/cosmos/interchain-security/tests/integration"
 
-	appConsumer "github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/testutil"
+	appConsumer "github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/testutil"
 )
 
 // Executes the standard group of ccv tests against a consumer and provider app.go implementation.

@@ -3,15 +3,15 @@ package cli_test
 import (
 	"testing"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/testutil/contractmanager/network"
-	"github.com/petri-labs/petri/x/feerefunder/client/cli"
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/testutil/contractmanager/network"
+	"github.com/merlin-network/petri/x/feerefunder/client/cli"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 func feeRefunderNetwork(t *testing.T, feeInfo types.Fee) *network.Network {

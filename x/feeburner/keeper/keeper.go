@@ -13,7 +13,7 @@ import (
 	consumertypes "github.com/cosmos/interchain-security/x/ccv/consumer/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/petri-labs/petri/x/feeburner/types"
+	"github.com/merlin-network/petri/x/feeburner/types"
 )
 
 type (

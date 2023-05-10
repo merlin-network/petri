@@ -11,7 +11,7 @@ import (
 	types0 "github.com/cosmos/cosmos-sdk/x/auth/types"
 	types1 "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	gomock "github.com/golang/mock/gomock"
-	types2 "github.com/petri-labs/petri/x/feerefunder/types"
+	types2 "github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 // MockContractManagerKeeper is a mock of ContractManagerKeeper interface.

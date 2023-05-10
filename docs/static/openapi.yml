@@ -28215,7 +28215,7 @@ paths:
                   additionalProperties: {}
       tags:
         - Query
-  /petri-labs/petri/feerefunder/info:
+  /merlin-network/petri/feerefunder/info:
     get:
       operationId: PetriFeerefunderFeeInfo
       responses:
@@ -28336,7 +28336,7 @@ paths:
           format: uint64
       tags:
         - Query
-  /petri-labs/petri/feerefunder/params:
+  /merlin-network/petri/feerefunder/params:
     get:
       summary: Parameters queries the parameters of the module.
       operationId: PetriFeerefunderParams

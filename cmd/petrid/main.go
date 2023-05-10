@@ -5,7 +5,7 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 )
 
 func main() {

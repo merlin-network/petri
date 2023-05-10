@@ -11,12 +11,12 @@ import (
 	ibcclienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
 	packetforwardmiddlewaretypes "github.com/strangelove-ventures/packet-forward-middleware/v4/router/types"
 
-	crontypes "github.com/petri-labs/petri/x/cron/types"
-	feeburnertypes "github.com/petri-labs/petri/x/feeburner/types"
-	feerefundertypes "github.com/petri-labs/petri/x/feerefunder/types"
-	interchainqueriestypes "github.com/petri-labs/petri/x/interchainqueries/types"
-	interchaintxstypes "github.com/petri-labs/petri/x/interchaintxs/types"
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	crontypes "github.com/merlin-network/petri/x/cron/types"
+	feeburnertypes "github.com/merlin-network/petri/x/feeburner/types"
+	feerefundertypes "github.com/merlin-network/petri/x/feerefunder/types"
+	interchainqueriestypes "github.com/merlin-network/petri/x/interchainqueries/types"
+	interchaintxstypes "github.com/merlin-network/petri/x/interchaintxs/types"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 func IsConsumerProposalAllowlisted(content govtypes.Content) bool {

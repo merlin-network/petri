@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/petri-labs/petri/x/ibc-hooks/utils"
+	"github.com/merlin-network/petri/x/ibc-hooks/utils"
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/petri-labs/petri/x/ibc-hooks/types"
+	"github.com/merlin-network/petri/x/ibc-hooks/types"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"

@@ -16,7 +16,7 @@ import (
 	ibcconnectiontypes "github.com/cosmos/ibc-go/v4/modules/core/03-connection/types"
 	ibccommitmenttypes "github.com/cosmos/ibc-go/v4/modules/core/23-commitment/types"
 
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 type msgServer struct {

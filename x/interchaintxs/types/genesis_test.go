@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

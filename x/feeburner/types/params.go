@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 	"gopkg.in/yaml.v2"
 )
 

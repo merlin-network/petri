@@ -14,7 +14,7 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 )
 
 // NewTestChainWithValSet copypasted and modified to use petri denom from here https://github.com/cosmos/ibc-go/blob/af9b461c63274b9ce5917beb89a2c92e865419df/testing/chain.go#L94

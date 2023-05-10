@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/petri-labs/petri/x/feeburner/types"
+	"github.com/merlin-network/petri/x/feeburner/types"
 	"github.com/spf13/cobra"
 )
 

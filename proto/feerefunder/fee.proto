@@ -3,7 +3,7 @@ package petri.feerefunder;
 
 // this line is used by starport scaffolding # proto/tx/import
 
-option go_package = "github.com/petri-labs/petri/x/feerefunder/types";
+option go_package = "github.com/merlin-network/petri/x/feerefunder/types";
 
 import "cosmos/base/v1beta1/coin.proto";
 import "gogoproto/gogo.proto";

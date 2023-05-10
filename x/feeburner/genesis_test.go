@@ -3,12 +3,12 @@ package feeburner_test
 import (
 	"testing"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
-	"github.com/petri-labs/petri/testutil/feeburner/keeper"
-	"github.com/petri-labs/petri/testutil/feeburner/nullify"
-	"github.com/petri-labs/petri/x/feeburner"
-	"github.com/petri-labs/petri/x/feeburner/types"
+	"github.com/merlin-network/petri/testutil/feeburner/keeper"
+	"github.com/merlin-network/petri/testutil/feeburner/nullify"
+	"github.com/merlin-network/petri/x/feeburner"
+	"github.com/merlin-network/petri/x/feeburner/types"
 	"github.com/stretchr/testify/require"
 )
 

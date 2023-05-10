@@ -18,9 +18,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/petri-labs/petri/x/feeburner/client/cli"
-	"github.com/petri-labs/petri/x/feeburner/keeper"
-	"github.com/petri-labs/petri/x/feeburner/types"
+	"github.com/merlin-network/petri/x/feeburner/client/cli"
+	"github.com/merlin-network/petri/x/feeburner/keeper"
+	"github.com/merlin-network/petri/x/feeburner/types"
 )
 
 var (

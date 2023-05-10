@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	"github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 func TestICAOwner(t *testing.T) {

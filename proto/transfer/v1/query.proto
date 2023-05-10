@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package petri.transfer;
 
-option go_package = "github.com/petri-labs/petri/x/transfer/types";
+option go_package = "github.com/merlin-network/petri/x/transfer/types";
 
 import "ibc/applications/transfer/v1/query.proto";
 import "google/api/annotations.proto";

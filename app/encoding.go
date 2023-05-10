@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/cosmos/cosmos-sdk/std"
 
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 )
 
 // MakeEncodingConfig creates an EncodingConfig for testing

@@ -1,12 +1,12 @@
 package wasmbinding
 
 import (
-	feeburnerkeeper "github.com/petri-labs/petri/x/feeburner/keeper"
-	feerefunderkeeper "github.com/petri-labs/petri/x/feerefunder/keeper"
-	icqkeeper "github.com/petri-labs/petri/x/interchainqueries/keeper"
-	icacontrollerkeeper "github.com/petri-labs/petri/x/interchaintxs/keeper"
+	feeburnerkeeper "github.com/merlin-network/petri/x/feeburner/keeper"
+	feerefunderkeeper "github.com/merlin-network/petri/x/feerefunder/keeper"
+	icqkeeper "github.com/merlin-network/petri/x/interchainqueries/keeper"
+	icacontrollerkeeper "github.com/merlin-network/petri/x/interchaintxs/keeper"
 
-	tokenfactorykeeper "github.com/petri-labs/petri/x/tokenfactory/keeper"
+	tokenfactorykeeper "github.com/merlin-network/petri/x/tokenfactory/keeper"
 )
 
 type QueryPlugin struct {

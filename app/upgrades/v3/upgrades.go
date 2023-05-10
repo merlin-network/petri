@@ -4,11 +4,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/petri-labs/petri/app/upgrades"
+	"github.com/merlin-network/petri/app/upgrades"
 
-	crontypes "github.com/petri-labs/petri/x/cron/types"
-	icqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	crontypes "github.com/merlin-network/petri/x/cron/types"
+	icqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 func CreateUpgradeHandler(

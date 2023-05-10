@@ -7,10 +7,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	feeburnertypes "github.com/petri-labs/petri/x/feeburner/types"
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	feeburnertypes "github.com/merlin-network/petri/x/feeburner/types"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 
-	"github.com/petri-labs/petri/app/upgrades"
+	"github.com/merlin-network/petri/app/upgrades"
 )
 
 func CreateUpgradeHandler(

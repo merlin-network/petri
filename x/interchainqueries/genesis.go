@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/petri-labs/petri/x/interchainqueries/keeper"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	"github.com/merlin-network/petri/x/interchainqueries/keeper"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

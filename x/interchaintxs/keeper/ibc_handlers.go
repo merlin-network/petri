@@ -9,9 +9,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 
-	contractmanagertypes "github.com/petri-labs/petri/x/contractmanager/types"
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	"github.com/petri-labs/petri/x/interchaintxs/types"
+	contractmanagertypes "github.com/merlin-network/petri/x/contractmanager/types"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/interchaintxs/types"
 )
 
 const (

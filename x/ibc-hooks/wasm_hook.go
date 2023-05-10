@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/petri-labs/petri/x/ibc-hooks/utils"
+	"github.com/merlin-network/petri/x/ibc-hooks/utils"
 
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 
@@ -14,7 +14,7 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 	ibcexported "github.com/cosmos/ibc-go/v4/modules/core/exported"
 
-	"github.com/petri-labs/petri/x/ibc-hooks/types"
+	"github.com/merlin-network/petri/x/ibc-hooks/types"
 )
 
 type ContractAck struct {

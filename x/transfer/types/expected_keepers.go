@@ -5,7 +5,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 	channeltypes "github.com/cosmos/ibc-go/v4/modules/core/04-channel/types"
 
-	feerefundertypes "github.com/petri-labs/petri/x/feerefunder/types"
+	feerefundertypes "github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 // ContractManagerKeeper defines the expected interface needed to add ack information about sudo failure.

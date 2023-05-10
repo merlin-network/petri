@@ -6,7 +6,7 @@ import "interchainqueries/params.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "ibc/core/client/v1/client.proto";
 
-option go_package = "github.com/petri-labs/petri/x/interchainqueries/types";
+option go_package = "github.com/merlin-network/petri/x/interchainqueries/types";
 
 message RegisteredQuery {
   // The unique id of the registered query.

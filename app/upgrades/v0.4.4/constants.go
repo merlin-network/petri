@@ -1,7 +1,7 @@
 package v044
 
 import (
-	"github.com/petri-labs/petri/app/upgrades"
+	"github.com/merlin-network/petri/app/upgrades"
 )
 
 const (

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package petri.transfer;
 
-option go_package = "github.com/petri-labs/petri/x/transfer/types";
+option go_package = "github.com/merlin-network/petri/x/transfer/types";
 
 import "gogoproto/gogo.proto";
 import "cosmos/base/v1beta1/coin.proto";

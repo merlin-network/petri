@@ -6,7 +6,7 @@ import "feeburner/params.proto";
 import "feeburner/total_burned_petris_amount.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
-option go_package = "github.com/petri-labs/petri/x/feeburner/types";
+option go_package = "github.com/merlin-network/petri/x/feeburner/types";
 
 // GenesisState defines the feeburner module's genesis state.
 message GenesisState {

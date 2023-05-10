@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/petri-labs/petri/testutil"
+	"github.com/merlin-network/petri/testutil"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 
-	testkeeper "github.com/petri-labs/petri/testutil/cron/keeper"
+	testkeeper "github.com/merlin-network/petri/testutil/cron/keeper"
 
-	"github.com/petri-labs/petri/x/cron/types"
+	"github.com/merlin-network/petri/x/cron/types"
 	"github.com/stretchr/testify/require"
 )
 

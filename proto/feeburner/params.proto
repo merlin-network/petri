@@ -3,7 +3,7 @@ package petri.feeburner;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/petri-labs/petri/x/feeburner/types";
+option go_package = "github.com/merlin-network/petri/x/feeburner/types";
 
 // Params defines the parameters for the module.
 message Params {

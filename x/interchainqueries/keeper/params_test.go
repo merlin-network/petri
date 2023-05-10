@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/petri-labs/petri/testutil/interchainqueries/keeper"
-	"github.com/petri-labs/petri/x/interchainqueries/types"
+	testkeeper "github.com/merlin-network/petri/testutil/interchainqueries/keeper"
+	"github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 func TestGetParams(t *testing.T) {

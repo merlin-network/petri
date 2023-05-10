@@ -6,9 +6,9 @@ import (
 	paramChange "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	icqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
-	transferwrappertypes "github.com/petri-labs/petri/x/transfer/types"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	icqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
+	transferwrappertypes "github.com/merlin-network/petri/x/transfer/types"
 )
 
 // ProtobufAny is a hack-struct to serialize protobuf Any message into JSON object
@@ -18,7 +18,7 @@ type ProtobufAny struct {
 }
 
 // PetriMsg is used like a sum type to hold one of custom Petri messages.
-// Follow https://github.com/petri-labs/petri-contracts/tree/main/packages/bindings/src/msg.rs
+// Follow https://github.com/merlin-network/petri-contracts/tree/main/packages/bindings/src/msg.rs
 // for more information.
 type PetriMsg struct {
 	SubmitTx                  *SubmitTx                         `json:"submit_tx,omitempty"`

@@ -19,7 +19,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/testutil/network"
 
-	"github.com/petri-labs/petri/app"
+	"github.com/merlin-network/petri/app"
 )
 
 // This function creates consumer module genesis state that is used as starting point for modifications

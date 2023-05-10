@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	ictxtypes "github.com/petri-labs/petri/x/interchaintxs/types"
+	ictxtypes "github.com/merlin-network/petri/x/interchaintxs/types"
 
 	adminkeeper "github.com/cosmos/admin-module/x/adminmodule/keeper"
 	admintypes "github.com/cosmos/admin-module/x/adminmodule/types"
 
-	"github.com/petri-labs/petri/app/params"
+	"github.com/merlin-network/petri/app/params"
 
 	"github.com/CosmWasm/wasmd/x/wasm/keeper"
 	"github.com/CosmWasm/wasmvm/types"
@@ -20,16 +20,16 @@ import (
 	host "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/app"
-	"github.com/petri-labs/petri/testutil"
-	"github.com/petri-labs/petri/wasmbinding"
-	"github.com/petri-labs/petri/wasmbinding/bindings"
-	feetypes "github.com/petri-labs/petri/x/feerefunder/types"
-	icqkeeper "github.com/petri-labs/petri/x/interchainqueries/keeper"
-	icqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
-	ictxkeeper "github.com/petri-labs/petri/x/interchaintxs/keeper"
+	"github.com/merlin-network/petri/app"
+	"github.com/merlin-network/petri/testutil"
+	"github.com/merlin-network/petri/wasmbinding"
+	"github.com/merlin-network/petri/wasmbinding/bindings"
+	feetypes "github.com/merlin-network/petri/x/feerefunder/types"
+	icqkeeper "github.com/merlin-network/petri/x/interchainqueries/keeper"
+	icqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
+	ictxkeeper "github.com/merlin-network/petri/x/interchaintxs/keeper"
 
-	tokenfactorytypes "github.com/petri-labs/petri/x/tokenfactory/types"
+	tokenfactorytypes "github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 const FeeCollectorAddress = "petri1vguuxez2h5ekltfj9gjd62fs5k4rl2zy5hfrncasykzw08rezpfsd2rhm7"

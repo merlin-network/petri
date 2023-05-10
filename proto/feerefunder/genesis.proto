@@ -6,7 +6,7 @@ import "feerefunder/params.proto";
 import "feerefunder/fee.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
-option go_package = "github.com/petri-labs/petri/x/feerefunder/types";
+option go_package = "github.com/merlin-network/petri/x/feerefunder/types";
 
 // GenesisState defines the fee module's genesis state.
 message GenesisState {

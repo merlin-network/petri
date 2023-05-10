@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/petri-labs/petri/wasmbinding/bindings"
+	"github.com/merlin-network/petri/wasmbinding/bindings"
 )
 
 // CustomQuerier returns a function that is an implementation of custom querier mechanism for specific messages

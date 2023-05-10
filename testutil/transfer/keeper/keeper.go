@@ -18,8 +18,8 @@ import (
 
 	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
 
-	keeper "github.com/petri-labs/petri/x/transfer/keeper"
-	"github.com/petri-labs/petri/x/transfer/types"
+	keeper "github.com/merlin-network/petri/x/transfer/keeper"
+	"github.com/merlin-network/petri/x/transfer/types"
 )
 
 func TransferKeeper(t testing.TB, managerKeeper types.ContractManagerKeeper, refunderKeeper types.FeeRefunderKeeper, channelKeeper types.ChannelKeeper, authKeeper types.AccountKeeper) (*keeper.KeeperTransferWrapper, sdk.Context) {

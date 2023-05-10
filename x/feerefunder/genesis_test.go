@@ -3,15 +3,15 @@ package feerefunder_test
 import (
 	"testing"
 
-	"github.com/petri-labs/petri/app/params"
-	"github.com/petri-labs/petri/testutil/feerefunder/keeper"
+	"github.com/merlin-network/petri/app/params"
+	"github.com/merlin-network/petri/testutil/feerefunder/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/testutil/interchainqueries/nullify"
-	"github.com/petri-labs/petri/x/feerefunder"
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/testutil/interchainqueries/nullify"
+	"github.com/merlin-network/petri/x/feerefunder"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 const TestContractAddressPetri = "petri14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s5c2epq"

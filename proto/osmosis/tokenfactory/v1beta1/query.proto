@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 import "osmosis/tokenfactory/v1beta1/authorityMetadata.proto";
 import "osmosis/tokenfactory/v1beta1/params.proto";
 
-option go_package = "github.com/petri-labs/petri/x/tokenfactory/types";
+option go_package = "github.com/merlin-network/petri/x/tokenfactory/types";
 
 // Query defines the gRPC querier service.
 service Query {

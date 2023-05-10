@@ -9,10 +9,10 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
-	"github.com/petri-labs/petri/app/params"
-	"github.com/petri-labs/petri/testutil"
-	"github.com/petri-labs/petri/x/tokenfactory/keeper"
-	"github.com/petri-labs/petri/x/tokenfactory/types"
+	"github.com/merlin-network/petri/app/params"
+	"github.com/merlin-network/petri/testutil"
+	"github.com/merlin-network/petri/x/tokenfactory/keeper"
+	"github.com/merlin-network/petri/x/tokenfactory/types"
 )
 
 const (

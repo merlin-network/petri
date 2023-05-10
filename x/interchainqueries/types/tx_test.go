@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	iqtypes "github.com/petri-labs/petri/x/interchainqueries/types"
+	iqtypes "github.com/merlin-network/petri/x/interchainqueries/types"
 )
 
 const TestAddress = "cosmos10h9stc5v6ntgeygf5xf945njqq5h32r53uquvw"

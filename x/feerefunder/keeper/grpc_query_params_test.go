@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/petri-labs/petri/testutil/feerefunder/keeper"
+	testkeeper "github.com/merlin-network/petri/testutil/feerefunder/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/petri-labs/petri/x/feerefunder/types"
+	"github.com/merlin-network/petri/x/feerefunder/types"
 )
 
 func TestParamsQuery(t *testing.T) {
