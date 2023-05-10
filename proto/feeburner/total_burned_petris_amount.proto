@@ -1,0 +1,13 @@
+syntax = "proto3";
+package petri.feeburner;
+
+import "cosmos/base/v1beta1/coin.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/petri-labs/petri/x/feeburner/types";
+
+// TotalBurnedPetrisAmount defines total amount of burned petri fees
+message TotalBurnedPetrisAmount {
+  cosmos.base.v1beta1.Coin coin = 1
+      [ (gogoproto.moretags) = "yaml:\"coin\"", (gogoproto.nullable) = false ];
+}
