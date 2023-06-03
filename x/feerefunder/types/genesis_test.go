@@ -15,7 +15,7 @@ import (
 
 const (
 	TestAddressPetri         = "petri13xvjxhkkxxhztcugr6weyt76eedj5ucpt4xluv"
-	TestContractAddressJuno    = "juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0zynf2s2r7v8q"
+	TestContractAddressJuno  = "juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0zynf2s2r7v8q"
 	TestContractAddressPetri = "petri14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s5c2epq"
 )
 

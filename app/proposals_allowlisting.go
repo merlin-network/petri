@@ -74,7 +74,7 @@ var WhitelistedParams = map[paramChangeKey]struct{}{
 	{Subspace: interchainqueriestypes.ModuleName, Key: string(interchainqueriestypes.KeyTxQueryRemovalLimit)}: {},
 	// feeburner
 	{Subspace: feeburnertypes.ModuleName, Key: string(feeburnertypes.KeyTreasuryAddress)}: {},
-	{Subspace: feeburnertypes.ModuleName, Key: string(feeburnertypes.KeyPetriDenom)}:    {},
+	{Subspace: feeburnertypes.ModuleName, Key: string(feeburnertypes.KeyPetriDenom)}:      {},
 	// tokenfactory
 	{Subspace: tokenfactorytypes.ModuleName, Key: string(tokenfactorytypes.KeyDenomCreationFee)}:    {},
 	{Subspace: tokenfactorytypes.ModuleName, Key: string(tokenfactorytypes.KeyFeeCollectorAddress)}: {},

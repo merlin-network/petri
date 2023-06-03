@@ -12,7 +12,7 @@ import (
 // Parameter store keys.
 var (
 	KeyDenomCreationFee              = []byte("DenomCreationFee")
-	DefaultPetriDenom              = params.DefaultDenom
+	DefaultPetriDenom                = params.DefaultDenom
 	DefaultFeeAmount           int64 = 1_000_000
 	KeyFeeCollectorAddress           = []byte("FeeCollectorAddress")
 	DefaultFeeCollectorAddress       = ""

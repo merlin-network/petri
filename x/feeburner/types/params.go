@@ -12,8 +12,8 @@ import (
 var _ paramtypes.ParamSet = (*Params)(nil)
 
 var (
-	KeyPetriDenom        = []byte("PetriDenom")
-	DefaultPetriDenom    = params.DefaultDenom
+	KeyPetriDenom          = []byte("PetriDenom")
+	DefaultPetriDenom      = params.DefaultDenom
 	KeyReserveAddress      = []byte("ReserveAddress")
 	DefaultReserveAddress  = ""
 	KeyTreasuryAddress     = []byte("TreasuryAddress")
@@ -44,7 +44,7 @@ func ParamKeyTable() paramtypes.KeyTable {
 // NewParams creates a new Params instance
 func NewParams(petriDenom, treasuryAddress string) Params {
 	return Params{
-		PetriDenom:    petriDenom,
+		PetriDenom:      petriDenom,
 		ReserveAddress:  DefaultReserveAddress,
 		TreasuryAddress: treasuryAddress,
 	}

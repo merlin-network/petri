@@ -36,7 +36,7 @@ const FeeCollectorAddress = "petri1vguuxez2h5ekltfj9gjd62fs5k4rl2zy5hfrncasykzw0
 
 type CustomMessengerTestSuite struct {
 	testutil.IBCConnectionTestSuite
-	petri         *app.App
+	petri           *app.App
 	ctx             sdk.Context
 	messenger       *wasmbinding.CustomMessenger
 	contractOwner   sdk.AccAddress
@@ -176,8 +176,8 @@ func (suite *CustomMessengerTestSuite) TestCreateDenomMsg() {
 func (suite *CustomMessengerTestSuite) TestMintMsg() {
 	var (
 		petri = suite.GetPetriZoneApp(suite.ChainA)
-		ctx     = suite.ChainA.GetContext()
-		lucky   = keeper.RandomAccountAddress(suite.T()) // We don't care what this address is
+		ctx   = suite.ChainA.GetContext()
+		lucky = keeper.RandomAccountAddress(suite.T()) // We don't care what this address is
 	)
 
 	codeID := suite.StoreReflectCode(suite.ctx, suite.contractOwner, "../testdata/reflect.wasm")

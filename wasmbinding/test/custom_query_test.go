@@ -31,8 +31,8 @@ type CustomQuerierTestSuite struct {
 func (suite *CustomQuerierTestSuite) TestInterchainQueryResult() {
 	var (
 		petri = suite.GetPetriZoneApp(suite.ChainA)
-		ctx     = suite.ChainA.GetContext()
-		owner   = keeper.RandomAccountAddress(suite.T()) // We don't care what this address is
+		ctx   = suite.ChainA.GetContext()
+		owner = keeper.RandomAccountAddress(suite.T()) // We don't care what this address is
 	)
 
 	// Store code and instantiate reflect contract
@@ -244,8 +244,8 @@ func (suite *CustomQuerierTestSuite) TestFullDenom() {
 func (suite *CustomQuerierTestSuite) TestDenomAdmin() {
 	var (
 		petri = suite.GetPetriZoneApp(suite.ChainA)
-		ctx     = suite.ChainA.GetContext()
-		owner   = keeper.RandomAccountAddress(suite.T()) // We don't care what this address is
+		ctx   = suite.ChainA.GetContext()
+		owner = keeper.RandomAccountAddress(suite.T()) // We don't care what this address is
 	)
 
 	petri.TokenFactoryKeeper.SetParams(ctx, tokenfactorytypes.NewParams(
