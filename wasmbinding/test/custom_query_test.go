@@ -206,10 +206,10 @@ func (suite *CustomQuerierTestSuite) TestMinIbcFee() {
 		feerefundertypes.Fee{
 			RecvFee: sdk.Coins{},
 			AckFee: sdk.Coins{
-				sdk.Coin{Denom: "untrn", Amount: sdk.NewInt(1000)},
+				sdk.Coin{Denom: "ufury", Amount: sdk.NewInt(1000)},
 			},
 			TimeoutFee: sdk.Coins{
-				sdk.Coin{Denom: "untrn", Amount: sdk.NewInt(1000)},
+				sdk.Coin{Denom: "ufury", Amount: sdk.NewInt(1000)},
 			},
 		},
 		resp.MinFee,

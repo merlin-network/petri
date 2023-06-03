@@ -106,7 +106,7 @@ func TestKeeper_BurnAndDistribute_Clean(t *testing.T) {
 	require.Equal(t, burnedAmount.Coin.Amount, sdk.NewInt(0))
 }
 
-func TestKeeper_BurnAndDistribute_Ntrn(t *testing.T) {
+func TestKeeper_BurnAndDistribute_Fury(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 	feeKeeper, ctx, mockBankKeeper, _ := setupBurnAndDistribute(t, ctrl, sdk.Coins{sdk.NewCoin(feetypes.DefaultPetriDenom, sdk.NewInt(100))})
@@ -119,12 +119,12 @@ func TestKeeper_BurnAndDistribute_Ntrn(t *testing.T) {
 	require.Equal(t, burnedAmount.Coin.Amount, sdk.NewInt(100))
 }
 
-func TestKeeper_BurnAndDistribute_NonNtrn(t *testing.T) {
+func TestKeeper_BurnAndDistribute_NonFury(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
-	feeKeeper, ctx, mockBankKeeper, redistrAddr := setupBurnAndDistribute(t, ctrl, sdk.Coins{sdk.NewCoin("nonntrn", sdk.NewInt(50))})
+	feeKeeper, ctx, mockBankKeeper, redistrAddr := setupBurnAndDistribute(t, ctrl, sdk.Coins{sdk.NewCoin("nonfury", sdk.NewInt(50))})
 
-	mockBankKeeper.EXPECT().SendCoins(ctx, redistrAddr, sdk.MustAccAddressFromBech32(feeKeeper.GetParams(ctx).TreasuryAddress), sdk.Coins{sdk.NewCoin("nonntrn", sdk.NewInt(50))})
+	mockBankKeeper.EXPECT().SendCoins(ctx, redistrAddr, sdk.MustAccAddressFromBech32(feeKeeper.GetParams(ctx).TreasuryAddress), sdk.Coins{sdk.NewCoin("nonfury", sdk.NewInt(50))})
 
 	feeKeeper.BurnAndDistribute(ctx)
 
@@ -135,9 +135,9 @@ func TestKeeper_BurnAndDistribute_NonNtrn(t *testing.T) {
 func TestKeeper_BurnAndDistribute_SendCoinsFail(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
-	feeKeeper, ctx, mockBankKeeper, redistrAddr := setupBurnAndDistribute(t, ctrl, sdk.Coins{sdk.NewCoin("nonntrn", sdk.NewInt(50))})
+	feeKeeper, ctx, mockBankKeeper, redistrAddr := setupBurnAndDistribute(t, ctrl, sdk.Coins{sdk.NewCoin("nonfury", sdk.NewInt(50))})
 
-	mockBankKeeper.EXPECT().SendCoins(ctx, redistrAddr, sdk.MustAccAddressFromBech32(feeKeeper.GetParams(ctx).TreasuryAddress), sdk.Coins{sdk.NewCoin("nonntrn", sdk.NewInt(50))}).Return(fmt.Errorf("testerror"))
+	mockBankKeeper.EXPECT().SendCoins(ctx, redistrAddr, sdk.MustAccAddressFromBech32(feeKeeper.GetParams(ctx).TreasuryAddress), sdk.Coins{sdk.NewCoin("nonfury", sdk.NewInt(50))}).Return(fmt.Errorf("testerror"))
 
 	assert.Panics(t, func() {
 		feeKeeper.BurnAndDistribute(ctx)
@@ -147,14 +147,14 @@ func TestKeeper_BurnAndDistribute_SendCoinsFail(t *testing.T) {
 	require.Equal(t, burnedAmount.Coin.Amount, sdk.NewInt(0))
 }
 
-func TestKeeper_BurnAndDistribute_NtrnAndNonNtrn(t *testing.T) {
+func TestKeeper_BurnAndDistribute_FuryAndNonNtrn(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
-	coins := sdk.Coins{sdk.NewCoin(feetypes.DefaultPetriDenom, sdk.NewInt(70)), sdk.NewCoin("nonntrn", sdk.NewInt(20))}
+	coins := sdk.Coins{sdk.NewCoin(feetypes.DefaultPetriDenom, sdk.NewInt(70)), sdk.NewCoin("nonfury", sdk.NewInt(20))}
 	feeKeeper, ctx, mockBankKeeper, redistrAddr := setupBurnAndDistribute(t, ctrl, coins)
 
 	mockBankKeeper.EXPECT().BurnCoins(ctx, consumertypes.ConsumerRedistributeName, sdk.Coins{sdk.NewCoin(feetypes.DefaultPetriDenom, sdk.NewInt(70))})
-	mockBankKeeper.EXPECT().SendCoins(ctx, redistrAddr, sdk.MustAccAddressFromBech32(feeKeeper.GetParams(ctx).TreasuryAddress), sdk.Coins{sdk.NewCoin("nonntrn", sdk.NewInt(20))})
+	mockBankKeeper.EXPECT().SendCoins(ctx, redistrAddr, sdk.MustAccAddressFromBech32(feeKeeper.GetParams(ctx).TreasuryAddress), sdk.Coins{sdk.NewCoin("nonfury", sdk.NewInt(20))})
 
 	feeKeeper.BurnAndDistribute(ctx)
 	burnedAmount := feeKeeper.GetTotalBurnedPetrisAmount(ctx)

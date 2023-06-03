@@ -213,7 +213,7 @@ init: kill-dev install-test-binary
 
 start: kill-dev install-test-binary
 	@echo "Starting up petrid alone..."
-	BINARY=petrid CHAINID=test-1 P2PPORT=26656 RPCPORT=26657 RESTPORT=1317 ROSETTA=8080 GRPCPORT=8090 GRPCWEB=8091 STAKEDENOM=untrn \
+	BINARY=petrid CHAINID=test-1 P2PPORT=26656 RPCPORT=26657 RESTPORT=1317 ROSETTA=8080 GRPCPORT=8090 GRPCWEB=8091 STAKEDENOM=ufury \
 	./network/init.sh && ./network/init-petrid.sh && ./network/start.sh
 
 start-rly:

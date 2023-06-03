@@ -4,7 +4,7 @@ set -e
 BINARY=${BINARY:-petrid}
 BASE_DIR=./data
 CHAINID=${CHAINID:-test-1}
-STAKEDENOM=${STAKEDENOM:-untrn}
+STAKEDENOM=${STAKEDENOM:-ufury}
 CONTRACTS_BINARIES_DIR=${CONTRACTS_BINARIES_DIR:-./contracts}
 THIRD_PARTY_CONTRACTS_DIR=${THIRD_PARTY_CONTRACTS_DIR:-./contracts_thirdparty}
 
@@ -86,7 +86,7 @@ DAO_CORE_LABEL="petri.core"
 
 ## Petri vault
 PETRI_VAULT_NAME="Petri Vault"
-PETRI_VAULT_DESCRIPTION="Vault to put NTRN tokens to get voting power"
+PETRI_VAULT_DESCRIPTION="Vault to put FURY tokens to get voting power"
 PETRI_VAULT_LABEL="petri.voting.vaults.petri"
 
 ## Reserve

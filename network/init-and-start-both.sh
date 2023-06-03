@@ -11,7 +11,7 @@ export RESTPORT=1317
 export ROSETTA=8080
 export GRPCPORT=8090
 export GRPCWEB=8091
-export STAKEDENOM=untrn
+export STAKEDENOM=ufury
 
 "$script_full_path"/init.sh
 "$script_full_path"/init-petrid.sh

@@ -54,7 +54,7 @@ func NewKeeper(
 	}
 }
 
-// RecordBurnedFees adds `amount` to the total amount of burned NTRN tokens
+// RecordBurnedFees adds `amount` to the total amount of burned FURY tokens
 func (k Keeper) RecordBurnedFees(ctx sdk.Context, amount sdk.Coin) {
 	store := ctx.KVStore(k.storeKey)
 
@@ -64,7 +64,7 @@ func (k Keeper) RecordBurnedFees(ctx sdk.Context, amount sdk.Coin) {
 	store.Set(KeyBurnedFees, k.cdc.MustMarshal(&totalBurnedPetrisAmount))
 }
 
-// GetTotalBurnedPetrisAmount gets the total burned amount of NTRN tokens
+// GetTotalBurnedPetrisAmount gets the total burned amount of FURY tokens
 func (k Keeper) GetTotalBurnedPetrisAmount(ctx sdk.Context) types.TotalBurnedPetrisAmount {
 	store := ctx.KVStore(k.storeKey)
 
@@ -82,10 +82,10 @@ func (k Keeper) GetTotalBurnedPetrisAmount(ctx sdk.Context) types.TotalBurnedPet
 }
 
 // BurnAndDistribute is an important part of tokenomics. It does few things:
-// 1. Burns NTRN fee coins distributed to consumertypes.ConsumerRedistributeName in ICS (https://github.com/cosmos/interchain-security/blob/v0.2.0/x/ccv/consumer/keeper/distribution.go#L17)
-// 2. Updates total amount of burned NTRN coins
-// 3. Sends non-NTRN fee tokens to reserve contract address
-// Panics if no `consumertypes.ConsumerRedistributeName` module found OR could not burn NTRN tokens
+// 1. Burns FURY fee coins distributed to consumertypes.ConsumerRedistributeName in ICS (https://github.com/cosmos/interchain-security/blob/v0.2.0/x/ccv/consumer/keeper/distribution.go#L17)
+// 2. Updates total amount of burned FURY coins
+// 3. Sends non-FURY fee tokens to reserve contract address
+// Panics if no `consumertypes.ConsumerRedistributeName` module found OR could not burn FURY tokens
 func (k Keeper) BurnAndDistribute(ctx sdk.Context) {
 	moduleAddr := k.accountKeeper.GetModuleAddress(consumertypes.ConsumerRedistributeName)
 	if moduleAddr == nil {
@@ -101,7 +101,7 @@ func (k Keeper) BurnAndDistribute(ctx sdk.Context) {
 			if balance.Denom == params.PetriDenom {
 				err := k.bankKeeper.BurnCoins(ctx, consumertypes.ConsumerRedistributeName, sdk.Coins{balance})
 				if err != nil {
-					panic(sdkerrors.Wrapf(err, "failed to burn NTRN tokens during fee processing"))
+					panic(sdkerrors.Wrapf(err, "failed to burn FURY tokens during fee processing"))
 				}
 
 				k.RecordBurnedFees(ctx, balance)

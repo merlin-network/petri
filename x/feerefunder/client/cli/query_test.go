@@ -39,8 +39,8 @@ func TestQueryFeeInfo(t *testing.T) {
 
 	feeInfo := types.Fee{
 		RecvFee:    sdk.NewCoins(),
-		AckFee:     sdk.NewCoins(sdk.NewCoin("untrn", sdk.NewInt(1001))),
-		TimeoutFee: sdk.NewCoins(sdk.NewCoin("untrn", sdk.NewInt(2001))),
+		AckFee:     sdk.NewCoins(sdk.NewCoin("ufury", sdk.NewInt(1001))),
+		TimeoutFee: sdk.NewCoins(sdk.NewCoin("ufury", sdk.NewInt(2001))),
 	}
 	net := feeRefunderNetwork(t, feeInfo)
 
